@@ -7,12 +7,6 @@ var bodyParser = require('body-parser');
 //App api routes
 
 //Util
-var TripConstructor = require('./util/TripConstructor')
-//MongoDB requirements
-var mongodb = require("mongodb");
-var ObjectID = mongodb.ObjectID;
-var mongo_connection_uri = 'mongodb://ankith:test@ds151008.mlab.com:51008/journey';
-
 var app = express();
 
 // view engine setup
